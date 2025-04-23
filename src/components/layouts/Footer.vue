@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <footer class="bg-white border border-gray-300 shadow-lg dark:border-0 dark:bg-gray-900 p-2 flex justify-around items-center z-20 mb-3 mx-3 rounded-lg">
+    <footer class="bg-white border border-gray-300 shadow-lg dark:border-0 dark:bg-gray-900 p-3 flex justify-around items-center z-20 mb-3 mx-3 rounded-lg">
         <RouterLink 
             to="/"
             class="flex flex-col items-center text-blue-500 text-xs cursor-pointer dark:hover:text-blue-700">
