@@ -13,6 +13,24 @@
         </p>
 
         <section class="mt-10">
+            <p class="dark:text-gray-100"> Métodos de pago </p>
+            <span class="text-sm dark:text-gray-400"> Administra tus métodos de pago </span>
+
+            <div class="mt-5 border-b-1 border-gray-300 dark:border-slate-700 cursor-pointer hover:bg-gray-100 dark:hover:bg-slate-400 p-2">
+                <div class="flex min-w-0 gap-x-4 items-center mb-3">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-7">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 8.25h19.5M2.25 9h19.5m-16.5 5.25h6m-6 2.25h3m-3.75 3h15a2.25 2.25 0 0 0 2.25-2.25V6.75A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25v10.5A2.25 2.25 0 0 0 4.5 19.5Z" />
+                        </svg>
+                    </div>
+                    <div class="min-w-0 flex-auto">
+                        <p class="uppercase text-sm"> Mis tarjetas </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mt-10">
             <p class="dark:text-gray-100"> Preferencias </p>
             <span class="text-sm dark:text-gray-400"> Personaliza los ajustes de la aplicación </span>
 
