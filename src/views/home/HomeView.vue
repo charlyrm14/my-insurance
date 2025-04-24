@@ -14,38 +14,29 @@
         <section>
             <div class="flex justify-start gap-1">
                 <button
-                    class="bg-black text-white border px-3 py-1 rounded-full cursor-pointer hover:opacity-75 dark:bg-transparent dark:border-white"> 
+                    class="bg-black text-white border px-3 py-1 rounded-full cursor-pointer hover:opacity-75 dark:bg-transparent dark:border-slate-700"> 
                         TODO 
                 </button>
                 <button
-                    class="bg-black text-white border px-3 py-1 rounded-full cursor-pointer hover:opacity-75 dark:bg-transparent dark:border-white"> 
+                    class="bg-black text-white border px-3 py-1 rounded-full cursor-pointer hover:opacity-75 dark:bg-transparent dark:border-slate-700"> 
                         AXA 
                 </button>
                 <button
-                    class="bg-black text-white border px-3 py-1 rounded-full cursor-pointer hover:opacity-75 dark:bg-transparent dark:border-white"> 
+                    class="bg-black text-white border px-3 py-1 rounded-full cursor-pointer hover:opacity-75 dark:bg-transparent dark:border-slate-700"> 
                         ZURICH 
                 </button>
                 <button
-                    class="bg-black text-white border px-3 py-1 rounded-full cursor-pointer hover:opacity-75 dark:bg-transparent dark:border-white"> 
+                    class="bg-black text-white border px-3 py-1 rounded-full cursor-pointer hover:opacity-75 dark:bg-transparent dark:border-slate-700"> 
                         CHUBB 
                 </button>
             </div>
 
             <div class="mt-5">
-                <Product/>
-                <Product/>
-                <Product/>
-                <Product/>
-                <Product/>
-                <Product/>
-                <Product/>
-                <Product/>
-                <Product/>
-                <Product/>
-                <Product/>
-                <Product/>
-                <Product/>
-                <Product/>
+                <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-12 gap-3">
+                    <Product/>
+                    <Product/>
+                    <Product/>
+                </div>
             </div>
         </section>
 
