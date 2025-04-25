@@ -15,6 +15,11 @@ const router = createRouter({
           component: () => import('../views/home/HomeView.vue')
         },
         {
+          path: 'policy/:id',
+          name: 'policy-detail',
+          component: () => import('../views/policy/PolicyView.vue')
+        },
+        {
           path: 'search',
           name: 'search',
           component: () => import('../views/search/SearchView.vue')
