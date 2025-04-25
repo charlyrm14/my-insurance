@@ -3,8 +3,8 @@
 
 <template>
     <div class="border-1 border-gray-300 dark:border-slate-700 rounded-lg p-3 shadow-lg relative">
-        <span class="absolute top-5 right-5 bg-green-500 flex items-center gap-2 uppercase px-3 text-white rounded-lg font-light">
-            Vigente
+        <span class="absolute top-5 right-5 bg-indigo-500 flex items-center gap-2 uppercase px-3 text-white rounded-lg font-light">
+            90985
         </span>
         <div> 
             <img
@@ -24,8 +24,17 @@
                             </svg> PDF
                         </p>
                     </div>
-                    <div class="">
-                        <p class="font-light text-center">MÁS</p>
+                    <div class="flex justify-center items-center">
+                        <RouterLink
+                            :to="{
+                                name: 'policy-detail',
+                                params: {
+                                    id: 1
+                                }
+                            }"
+                            class="font-light text-center cursor-pointer">
+                                MÁS
+                        </RouterLink>
                     </div>
                 </div>
             </div>
